@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Alura Challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <section>
+            <div class="caixa-texto">
+                <input type="text" placeholder="Digite seu texto">
+            </div>
+            
+            <div class="informacao">
+                <img src="./imagens/ponto.png" alt="ponto de exclamacao">
+                <span>Apenas letras minúsculas e sem acento.</span>
+            </div>
+    
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="10" rows="5"></textarea>
+            <img class="personagemfigma" src="./imagens/personagemfigma.png" alt="personagemfigma">
+            <p><strong>Nenhuma mensagem encontrada</p></strong>
+            <p>Digite um texto que você deseja Criptografar ou Descriptografar.</p>
+            <button class="btn-copiar" id="btnCopiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+    <a class="apresentacao_links_link" href="https://github.com/geysamachado"><img src="./imagens/github.png">Github</a>
+    </footer>
+</body>
+</html>
